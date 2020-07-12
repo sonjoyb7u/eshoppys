@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca51d3ea-0dee-4cb9-8a7b-81228ad9678d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>label</find>
+      <find>data</find>
+      <find>fileToUpload</find>
+      <find>$_FILES</find>
+      <find>u</find>
+      <find>$re</find>
+      <find>$products</find>
+      <find>$value</find>
+      <find>$product</find>
+      <find>$row</find>
+      <find>footer</find>
+      <find>bannerLogin</find>
+      <find>login</find>
+      <find>bannerProductCategory</find>
+      <find>baneer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>labels</replace>
+      <replace>dataOne</replace>
+      <replace>picture</replace>
+      <replace>$file</replace>
+      <replace>$row</replace>
+      <replace>$value</replace>
+      <replace>$pro</replace>
+      <replace>$product</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/back/admin/views/Products/edit.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Products/updateProcess.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Banners/index.php" />
+        <option value="$PROJECT_DIR$/src/Cart/Cart.php" />
+        <option value="$PROJECT_DIR$/src/Users/Users.php" />
+        <option value="$PROJECT_DIR$/src/Carts/Cart.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Products/create.php" />
+        <option value="$PROJECT_DIR$/front/views/static/latest_product.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/banner.php" />
+        <option value="$PROJECT_DIR$/front/views/static/blog.php" />
+        <option value="$PROJECT_DIR$/front/views/static/portfolio.php" />
+        <option value="$PROJECT_DIR$/public/themes/ecommerce-shoppy/css/style.css" />
+        <option value="$PROJECT_DIR$/front/views/static/about_us.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/special_product.php" />
+        <option value="$PROJECT_DIR$/front/views/static/about.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/latest_product_modal.php" />
+        <option value="$PROJECT_DIR$/src/Brands/Brands.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/latest_product.php" />
+        <option value="$PROJECT_DIR$/front/views/static/product_category.php" />
+        <option value="$PROJECT_DIR$/src/Product/Products.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Categories/create.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Categories/storeProcess.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Categories/index.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Categories/view.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Categories/edit.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Categories/updateProcess.php" />
+        <option value="$PROJECT_DIR$/src/Categories/Categories.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/product_category.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/elements/dashboard_navigation.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/view.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/showProcess.php" />
+        <option value="$PROJECT_DIR$/front/views/Process/cartProcess.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/readProcess.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/storeProcess.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/create.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/updateProcess.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/edit.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/deleteProcess.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/header-bottom.php" />
+        <option value="$PROJECT_DIR$/front/views/static/single_product.php" />
+        <option value="$PROJECT_DIR$/src/Utility/Utility.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Carts/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Admins/create.php" />
+        <option value="$PROJECT_DIR$/back/admin/views/Admins/storeProcess.php" />
+        <option value="$PROJECT_DIR$/src/Admins/Admins.php" />
+        <option value="$PROJECT_DIR$/src/Carts/Carts.php" />
+        <option value="$PROJECT_DIR$/front/index.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/header-top.php" />
+        <option value="$PROJECT_DIR$/front/views/static/add_to_cart.php" />
+        <option value="$PROJECT_DIR$/front/views/elements/head.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/Flot/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/bootstrap-colorpicker/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/chart.js/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/eve-raphael/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/jquery-slimscroll/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/bower_components/select2/package.json" />
+      <path value="$PROJECT_DIR$/public/html/admin-lte/package.json" />
+      <path value="$PROJECT_DIR$/public/html/coreui-admin/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/Flot/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/bootstrap-colorpicker/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/chart.js/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/eve-raphael/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/jquery-slimscroll/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/admin-lte/bower_components/select2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="13" />
+    <option name="y" value="83" />
+    <option name="width" value="1296" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Admins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Banners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Brands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Carts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Carts" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Carts" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Labels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Labels" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerce-shoppy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerce-shoppy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerce-shoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Admins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Brands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Carts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eshoppy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eshoppy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Db" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EcommShoppy" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views\Admins" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views\Carts" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views\Labels" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views\Products" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views\Brands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\front\views" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views\Products\upload" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back\admin\views" />
+      <recent name="C:\laragon\www\BitmCtg\eshoppy\back" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/eshoppy/front/index.php" />
+    <configuration name="head.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/front/views/elements/head.php" />
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/front/index.php" />
+    <list>
+      <item itemvalue="JavaScript Debug.index.php" />
+      <item itemvalue="PHP Script.head.php" />
+      <item itemvalue="PHP Script.index.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="PHP Script.head.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca51d3ea-0dee-4cb9-8a7b-81228ad9678d" name="Default" comment="" />
+      <created>1563467217276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563467217276</updated>
+      <workItem from="1563467220856" duration="11780000" />
+      <workItem from="1563519048289" duration="6530000" />
+      <workItem from="1563545830319" duration="630000" />
+      <workItem from="1563608515730" duration="19132000" />
+      <workItem from="1563670148497" duration="17414000" />
+      <workItem from="1563694639642" duration="10615000" />
+      <workItem from="1563714636559" duration="12047000" />
+      <workItem from="1563772014529" duration="9101000" />
+      <workItem from="1563799607159" duration="4621000" />
+      <workItem from="1563857965416" duration="5776000" />
+      <workItem from="1563876335460" duration="856000" />
+      <workItem from="1563965244709" duration="29647000" />
+      <workItem from="1564041307596" duration="11778000" />
+      <workItem from="1564055054482" duration="411000" />
+      <workItem from="1564284682224" duration="11424000" />
+      <workItem from="1564299706298" duration="12819000" />
+      <workItem from="1564314972481" duration="1096000" />
+      <workItem from="1564325967665" duration="10217000" />
+      <workItem from="1564372462827" duration="7681000" />
+      <workItem from="1564403581925" duration="2413000" />
+      <workItem from="1564458004947" duration="4035000" />
+      <workItem from="1564471900938" duration="17910000" />
+      <workItem from="1564551187388" duration="8980000" />
+      <workItem from="1564586606324" duration="6618000" />
+      <workItem from="1564627990241" duration="1198000" />
+      <workItem from="1564635651877" duration="642000" />
+      <workItem from="1564648747485" duration="3140000" />
+      <workItem from="1564907297348" duration="8027000" />
+      <workItem from="1565059600168" duration="13431000" />
+      <workItem from="1565079223458" duration="808000" />
+      <workItem from="1565251510553" duration="1966000" />
+      <workItem from="1565366055704" duration="50000" />
+      <workItem from="1565539289379" duration="7072000" />
+      <workItem from="1565591888277" duration="8459000" />
+      <workItem from="1565612461008" duration="11124000" />
+      <workItem from="1565673498916" duration="10037000" />
+      <workItem from="1565699544754" duration="3823000" />
+      <workItem from="1565744296337" duration="2205000" />
+      <workItem from="1565804168648" duration="3589000" />
+      <workItem from="1565849035152" duration="12616000" />
+      <workItem from="1565869184709" duration="28655000" />
+      <workItem from="1565932068825" duration="10992000" />
+      <workItem from="1565957625718" duration="18335000" />
+      <workItem from="1566013528080" duration="22120000" />
+      <workItem from="1566041516807" duration="30316000" />
+      <workItem from="1566095768218" duration="17327000" />
+      <workItem from="1566116258488" duration="3543000" />
+      <workItem from="1566147340889" duration="116000" />
+      <workItem from="1566533376518" duration="4107000" />
+      <workItem from="1566793302338" duration="1426000" />
+      <workItem from="1566997214313" duration="865000" />
+      <workItem from="1567146749208" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="449554000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286385" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/front/views/static/product_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/elements/dashboard_navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="137" column="74" selection-start-line="137" selection-start-column="74" selection-end-line="137" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Product/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="293" column="37" lean-forward="true" selection-start-line="293" selection-start-column="37" selection-end-line="293" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Products/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="98" selection-start-line="98" selection-end-line="100" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/showProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Labels/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="57" column="136" selection-start-line="57" selection-start-column="98" selection-end-line="57" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Labels/showProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Categories/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="81" column="28" lean-forward="true" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Categories/storeProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Products/updateProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Process/cartProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Brands/readProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/upload/images/680130.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Products/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Brands/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="77" column="79" lean-forward="true" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Products/readProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/deleteProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/storeProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Categories/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/updateProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Labels/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/elements/header-bottom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/elements/latest_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/static/single_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="151" column="98" selection-start-line="151" selection-start-column="98" selection-end-line="151" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utility/Utility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Banners/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Brands/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Products/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-820">
+          <caret line="97" selection-start-line="97" selection-end-line="113" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Admins/Admins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="68" column="96" lean-forward="true" selection-start-line="68" selection-start-column="96" selection-end-line="68" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Brands/Brands.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" selection-start-line="30" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Admins/storeProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Admins/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/elements/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Carts/Carts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="121" column="38" lean-forward="true" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/elements/banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Db/Db.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/static/add_to_cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/elements/header-top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="24" column="104" selection-start-line="24" selection-start-column="104" selection-end-line="24" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Carts/readProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/elements/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Users/loginProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/elements/login_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/Users/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/admin/views/elements/dashboard_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce-Shoppy</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+<body>
+
+<!-- Header Section Begin -->
+<header>
+    <!-- Navbar-Top Section Begin -->
+    <section id="sectionNavbarTop">
+        <div class="container-fluid navbarTop pt-3 px-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="list-unstyled list-inline sectionTopLeft">
+                            <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-language navbarIcon mr-2"></i>Language</a>
+                                <div class="dropdown-menu text-center">
+                                    <a href="#" class="dropdown-item"><img src="./img/flagIcon/ban1.png" alt="" class="mr-2">Bangla</a>
+                                    <a href="#" class="dropdown-item"><img src="./img/flagIcon/usa1.png" alt="" class="mr-2">English</a>
+                                    <a href="#" class="dropdown-item"><img src="./img/flagIcon/ind1.png" alt="" class="mr-2">Hindi</a>
+                                    <a href="#" class="dropdown-item"><img src="./img/flagIcon/fra1.png" alt="" class="mr-2">Francian</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="list-unstyled list-inline float-right sectionTopRight">
+                            <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user navbarIcon mr-2"></i>Account</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item"><i class="far fa-user-circle accountIcon mr-2"></i>My Account</a>
+                                    <a href="loginPage.html" class="dropdown-item"><i class="fas fa-sign-in-alt accountIcon mr-2"></i>Login</a>
+                                    <a href="signUpPage.html" class="dropdown-item"><i class="fas fa-user-plus accountIcon mr-2"></i>Sign-Up</a>
+                                </div>
+                            </li>
+                            <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-shopping-cart navbarIcon mr-2 navbarCartIcon"></i>Cart<span class="badge badge-secondary myCartBadge">2</span></a>
+                                <div class="dropdown-menu">
+                                    <a href="cartPage.html" class="dropdown-item">My Cart</a>
+                                </div>
+                            </li>
+                            <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-hand-holding-heart navbarIcon mr-2"></i>Wishlist<span class="badge badge-secondary myCartBadge">2</span></a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Something Add Here...</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Navbar-Top Section Finished -->
+
+    <!-- Header-Bottom Section Begin -->
+    <section id="sectionNavbarBottom">
+        <nav id="navbarBottom" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="navbarHeader">
+                    <a class="navbar-brand navbarLogo" href="index.html"><img src="./img/logo/logo-3.png" alt="Logo3" class="">
+                        <!-- <img src="./img/logo/logo-1.png" alt="Logo" class=""> -->
+                    </a>
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+                      <span class="sr-only mr-right">Toggle Search</span>
+                      <i class="fas fa-search"></i>
+                    </button> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+                        <span class="navbar-toggler-icon ml-5 navbarToggleIcon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarBtnMenu">
+                    <ul class="navbar-nav navbarActive mx-auto font-weight-bold">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle text-capitalize" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                Product Categories
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="productCategory.html">Laptop/Notebook</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Tablet</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Mobile-phone</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Sound-box</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Ipod-player</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Head-phone</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="singleProduct.html">Single Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form action="" method="">
+                        <div class="input-group searchBox">
+                            <input class="form-control inputSearchBox" type="text" name="" placeholder="Search Here">
+                            <div class="input-group-append">
+                                <button class="btn btnSearchIcon" type="submit"><i class="fas fa-search searchIcon"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </nav>
+    </section>
+    <!-- Header-Bottom Section Finished -->
+</header>
+<!-- Header-Top Finished -->
+
+<!-- Banner Section Begin -->
+<section class="banner">
+    <div
+            class="bannerSingleProduct d-flex align-items-center justify-content-center pl-3 pl-lg-5 text-center">
+        <div>
+            <h1 class="text-capitalize textTitle textSlanted display-3">
+                Ecommerce-Shoppy
+            </h1>
+            <h1 class="text-capitalize font-weight-bold display-4 text-light">
+                Contact Us
+            </h1>
+        </div>
+    </div>
+</section>
+<!-- Banner Section Finished -->
+
+<!-- Contact Begin -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+
+            <!-- Get in touch -->
+            <div class="col-lg-8 contact_col">
+                <div class="get_in_touch">
+                    <div class="section_title">Get in Touch</div>
+                    <div class="section_subtitle">Say hello</div>
+                    <div class="contact_form_container">
+                        <form action="#" id="contact_form" class="contact_form">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <!-- Name -->
+                                    <label for="contact_name">First Name*</label>
+                                    <input type="text" id="contact_name" class="contact_input" required="required">
+                                </div>
+                                <div class="col-xl-6 last_name_col">
+                                    <!-- Last Name -->
+                                    <label for="contact_last_name">Last Name*</label>
+                                    <input type="text" id="contact_last_name" class="contact_input" required="required">
+                                </div>
+                            </div>
+                            <div>
+                                <!-- Subject -->
+                                <label for="contact_company">Subject</label>
+                                <input type="text" id="contact_company" class="contact_input">
+                            </div>
+                            <div>
+                                <label for="contact_textarea">Message*</label>
+                                <textarea id="contact_textarea" class="contact_input contact_textarea" required="required"></textarea>
+                            </div>
+                            <button class="btn btn-primary"><span>Send Message</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 offset-xl-1 contact_col">
+                <div class="contact_info">
+                    <div class="contact_info_section">
+                        <div class="contact_info_title">Marketing</div>
+                        <ul>
+                            <li>Phone: <span>+53 345 7953 3245</span></li>
+                            <li>Email: <span>yourmail@gmail.com</span></li>
+                        </ul>
+                    </div>
+                    <div class="contact_info_section">
+                        <div class="contact_info_title">Shippiing & Returns</div>
+                        <ul>
+                            <li>Phone: <span>+53 345 7953 3245</span></li>
+                            <li>Email: <span>yourmail@gmail.com</span></li>
+                        </ul>
+                    </div>
+                    <div class="contact_info_section">
+                        <div class="contact_info_title">Information</div>
+                        <ul>
+                            <li>Phone: <span>+53 345 7953 3245</span></li>
+                            <li>Email: <span>yourmail@gmail.com</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row map_row">-->
+            <!--<div class="col">-->
+
+                <!--&lt;!&ndash; Google Map &ndash;&gt;-->
+                <!--<div class="map">-->
+                    <!--<div id="google_map" class="google_map">-->
+                        <!--<div class="map_container">-->
+                            <!--<div id="map"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+<!-- Contact Finished -->
+
+
+<!-- Newsletter Section Begin -->
+<section class="newsletter py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 mx-auto text-center">
+                <h2 class="text-uppercase">Newsletter</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    blanditiis similique eum, aut culpa maiores cupiditate alias
+                    exercitationem error nesciunt.
+                </p>
+                <form>
+                    <div class="input-group mt-5 mb-4">
+                        <input
+                                type="text"
+                                class="form-control text-capitalize"
+                                placeholder="Enter your email"
+                        />
+                        <div class="input-group-append">
+                            <div class="input-group-text form-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btnSubscribe">subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Section Finished -->
+
+
+
+<!-- Footer Section Begin -->
+    <footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mx-auto text-center">
+                <h1
+                        class="text-uppercase font-weight-bold text-light footerTitle text-center d-inline-block"
+                >
+                    Ecommerce-Shoppy
+                </h1>
+                <div class="footer-icons my-5 d-flex justify-content-center">
+                    <!-- single icon -->
+                    <a href="#" class="footerIcon mx-2">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <!-- end of  single icon -->
+                    <!-- single icon -->
+                    <a href="#" class="footerIcon mx-2">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- end of  single icon -->
+                    <!-- single icon -->
+                    <a href="#" class="footerIcon mx-2">
+                        <i class="fab fa-google-plus"></i>
+                    </a>
+                    <!-- end of  single icon -->
+                    <!-- single icon -->
+                    <a href="#" class="footerIcon mx-2">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- end of  single icon -->
+                    <!-- single icon -->
+                    <a href="#" class="footerIcon mx-2">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <!-- end of  single icon -->
+                </div>
+                <!-- end footer icons -->
+                <!--                <p class="lead text-light text-capitalize w-75 mx-auto text-left">-->
+                <!--                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas-->
+                <!--                    itaque minima rem esse aut eos inventore numquam nostrum placeat?-->
+                <!--                </p>-->
+
+                <div class="col-md-3 d-inline-block">
+                    <aside class="linkText">
+                        <div class="footerMiddleTitle">
+                            <h3>Information</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Delivery information</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Returns & Refunds</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-md-3 d-inline-block">
+                    <aside class="">
+                        <div class="footerMiddleTitle">
+                            <h3>Customer Service</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Wish List</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-md-3 d-inline-block">
+                    <aside class="">
+                        <div class="footerMiddleTitle">
+                            <h3>My Account</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Wish List</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </aside>
+                </div>
+
+                <div
+                        class="footer-contact mt-5 d-flex justify-content-around flex-wrap"
+                >
+                    <!-- single contact -->
+                    <div class="text-capitalize">
+                        <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-map"></i>
+            </span>
+                        </a>
+                        <span class="text-light">99/A Goal-Pahar, Mehadi-Bag Lane.</span>
+                    </div>
+                    <!-- end of single contact -->
+                    <!-- single contact -->
+                    <div class="text-capitalize">
+                        <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-phone"></i>
+            </span>
+                        </a>
+                        <span class="text-light">Phone No : + (880) 1915 111222</span>
+                    </div>
+                    <!-- end of single contact -->
+                    <!-- single contact -->
+                    <div class="text-capitalize">
+                        <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-envelope"></i>
+            </span>
+                        </a>
+                        <span class="text-light">Email Address : nomail@email.com</span>
+                    </div>
+                    <!-- end of single contact -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section Finished -->
+
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl-Carousel Plug-in -->
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/owl.js"></script>
+    <!-- FontAwesome JS -->
+    <script src="font-awesome/all.min.js"></script>
+    <!-- Custom/Main Js -->
+    <script src="js/style.js"></script>
+
+</body>
+</html>

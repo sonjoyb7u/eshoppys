@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ecommerce-Shoppy</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl/owl.theme.default.min.css"> 
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+<body>
+
+<!-- Header Section Begin -->
+<header>
+  <!-- Navbar-Top Section Begin -->
+  <section id="sectionNavbarTop">
+    <div class="container-fluid navbarTop pt-3 px-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+             <ul class="list-unstyled list-inline sectionTopLeft">
+                <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-language navbarIcon mr-2"></i>Language</a>
+                  <div class="dropdown-menu text-center">
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/ban1.png" alt="" class="mr-2">Bangla</a>
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/usa1.png" alt="" class="mr-2">English</a> 
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/ind1.png" alt="" class="mr-2">Hindi</a>
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/fra1.png" alt="" class="mr-2">Francian</a>
+                  </div>
+                </li>
+             </ul>
+          </div>
+          <div class="col-md-9">
+            <ul class="list-unstyled list-inline float-right sectionTopRight">
+                <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user navbarIcon mr-2"></i>Account</a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item"><i class="far fa-user-circle accountIcon mr-2"></i>My Account</a>
+                      <a href="loginPage.html" class="dropdown-item"><i class="fas fa-sign-in-alt accountIcon mr-2"></i>Login</a>
+                      <a href="signUpPage.html" class="dropdown-item"><i class="fas fa-user-plus accountIcon mr-2"></i>Sign-Up</a>
+                  </div>
+                </li>
+                <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-shopping-cart navbarIcon mr-2 navbarCartIcon"></i>Cart<span class="badge badge-secondary myCartBadge">2</span></a>
+                  <div class="dropdown-menu">
+                      <a href="cartPage.html" class="dropdown-item">My Cart</a>
+                  </div>
+                </li>
+                <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-hand-holding-heart navbarIcon mr-2"></i>Wishlist<span class="badge badge-secondary myCartBadge">2</span></a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Something Add Here...</a>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Navbar-Top Section Finished -->
+
+  <!-- Header-Bottom Section Begin -->
+  <section id="sectionNavbarBottom">
+    <nav id="navbarBottom" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbarHeader">
+          <a class="navbar-brand navbarLogo" href="index.html"><img src="./img/logo/logo-3.png" alt="Logo3" class="">
+          <!-- <img src="./img/logo/logo-1.png" alt="Logo" class=""> -->
+          </a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+            <span class="sr-only mr-right">Toggle Search</span>
+            <i class="fas fa-search"></i>
+          </button> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+            <span class="navbar-toggler-icon ml-5 navbarToggleIcon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarBtnMenu">
+         <ul class="navbar-nav navbarActive mx-auto font-weight-bold">
+           <li class="nav-item dropdown active">
+             <a class="nav-link dropdown-toggle text-capitalize" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+               Product Categories
+             </a>
+             <div class="dropdown-menu">
+               <a class="dropdown-item" href="productCategory.html">Laptop/Notebook</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Tablet</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Mobile-phone</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Sound-box</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Ipod-player</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Head-phone</a>
+             </div>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="singleProduct.html">Single Product</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#aboutUs">About Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#portfolio">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#blog">Blog</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contactUs">Contact Us</a>
+           </li>
+         </ul>
+         <form action="" method="">
+           <div class="input-group searchBox">
+             <input class="form-control inputSearchBox" type="text" name="" placeholder="Search Here">
+             <div class="input-group-append">
+               <button class="btn btnSearchIcon" type="submit"><i class="fas fa-search searchIcon"></i></button>
+             </div>
+           </div>
+         </form>
+      </div>
+    </nav>
+  </section>
+  <!-- Header-Bottom Section Finished -->
+</header>
+<!-- Header-Top Finished -->
+
+
+<!-- Banner Section Begin -->
+<section class="banner">
+  <div
+    class="bannerCartPage d-flex align-items-center justify-content-center pl-3 pl-lg-5 text-center">
+    <div>
+      <h1 class="text-capitalize textTitle textSlanted display-3">
+        Ecommerce-Shoppy
+      </h1>
+      <h1 class="text-capitalize font-weight-bold display-4 text-light">
+        My Cart
+      </h1>
+    </div>
+  </div>
+      <div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb breadCrumb">
+          <li class="breadcrumb-item breadCrumbLink"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active text-light" aria-current="page">My Cart</li>
+        </ol>
+      </nav>
+    </div>
+</section>
+<!-- Banner Section Finished -->
+
+
+<section class="shoppingCart p_100"> <!-- Carts Content Begin -->
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-md-6 col-lg-8">
+                <div class="cartProductList">
+                    <h3 class="cartSingleTitle">Total Product</h3>
+                    <div class="table-responsive-md">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">product</th>
+                                <th scope="col">price</th>
+                                <th scope="col">qunatity</th>
+                                <th scope="col">total</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <a href="#">
+                                        <i class="fa fa-times text-muted" aria-hidden="true"></i>
+                                    </a>
+                                </th>
+                                <td>
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="img/cart/cart-1.jpg" alt="Headphone-Cart-1">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>New-Headphone-1</h4>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><p>$150</p></td>
+                                <td><input type="text" placeholder="01"></td>
+                                <td><p>$150</p></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <a href="#">
+                                        <i class="fa fa-times text-muted" aria-hidden="true"></i>
+                                    </a>
+                                </th>
+                                <td>
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img src="img/cart/cart-2.jpg" alt="Soundbox-Cart-1">
+                                        </div>
+                                        <div class="media-body">
+                                            <h4>Creative-Sondbox-2</h4>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><p>$450</p></td>
+                                <td><input type="text" placeholder="01"></td>
+                                <td><p>$450</p></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cardProductListBtn">
+                    <div class="col-md-4 float-left clearCartBtn">
+                        <button type="submit" value="submit" class="btn form-control clearCart">Clear Cart</button>
+                    </div>
+                    <div class="col-md-4 float-right totalCartBtn">
+                        <button type="submit" value="submit" class="btn form-control totalCart">Total Update</button>
+                    </div>
+                    </div>
+
+                    <div class="cartTotals">
+                        <h3 class="cartSingleTitle">Total Cart Amount</h3>
+                        <div class="cartTotalInner">
+                            <ul>
+                                <li><a href="#"><span>Cart Subtotal</span> $600.00</a></li>
+                                <li><a href="#"><span>Shipping</span> Free</a></li>
+                                <li><a href="#"><span>Totals</span> $600.00</a></li>
+                            </ul>
+                        </div>
+                        <a href="#">
+                            <button type="submit" class="btn btn-primary form-control updateBtn">Update Cart</button>
+                        </a>
+                        <a href="checkOutPage.html">
+                            <button type="submit" class="btn btn-primary form-control checkoutBtn">Proceed To checkout</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-10 col-md-6 col-lg-4">
+                <div class="totalAmount">
+                    <div class="cuponBox">
+                        <h3 class="cartSingleTitle">Cupon Code</h3>
+                        <div class="cuponBoxInner">
+                            <input type="text" placeholder="Enter your code here">
+                            <button type="submit" class="btn btn-primary submitBtn">Apply Cupon</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Our Brand Section Begin -->
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 mx-auto text-center">
+        <div class="brandTitle py-1">
+          <h1 class="text-uppercase">Our Brand</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ourBrand my-5">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- compnay carousel -->
+        <div class="col-6 col-md-6 col-lg-4 mx-auto py-5">
+          <div
+            id="brandCarousel"
+            class="carousel slide "
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- single item -->
+              <div class="carousel-item active">
+                <img
+                  src="img/brand/brand1.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand2.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand3.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand4.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand5.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item">
+                <img
+                  src="img/brand/brand6.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+            </div>
+            <a
+              href="#brandCarousel"
+              class="carousel-control-prev brandCarouselPrev"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fas fa-arrow-left"></i>
+            </a>
+            <a
+              href="#brandCarousel"
+              class="carousel-control-next brandCarouselNext"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>    
+<!-- Our Brand Section Finished -->
+
+<!-- Newsletter Section Begin -->
+<section class="newsletter py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 mx-auto text-center">
+        <h2 class="text-uppercase">Newsletter</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          blanditiis similique eum, aut culpa maiores cupiditate alias
+          exercitationem error nesciunt.
+        </p>
+        <form>
+          <div class="input-group mt-5 mb-4">
+            <input
+              type="text"
+              class="form-control text-capitalize"
+              placeholder="Enter your email"
+            />
+            <div class="input-group-append">
+              <div class="input-group-text form-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btnSubscribe">subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Newsletter Section Finished -->
+
+<!-- Footer Section Begin -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 mx-auto text-center">
+        <h1
+          class="text-uppercase font-weight-bold text-light footerTitle text-center d-inline-block"
+        >
+          Ecommerce-Shoppy
+        </h1>
+        <div class="footer-icons my-5 d-flex justify-content-center">
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-google-plus"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <!-- end of  single icon -->
+        </div>
+        <!-- end footer icons -->
+        <p class="lead text-light text-capitalize w-75 mx-auto text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas
+          itaque minima rem esse aut eos inventore numquam nostrum placeat?
+        </p>
+        <div
+          class="footer-contact mt-5 d-flex justify-content-around flex-wrap"
+        >
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-map"></i>
+            </span>
+            </a>
+            <span class="text-light">99/A Goal-Pahar, Mehadi-Bag Lane.</span>
+          </div>
+          <!-- end of single contact -->
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-phone"></i>
+            </span>
+            </a>
+            <span class="text-light">Phone No : + (880) 1915 111222</span>  
+          </div>
+          <!-- end of single contact -->
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-envelope"></i>
+            </span>
+            </a>
+            <span class="text-light">Email Address : nomail@email.com</span>
+          </div>
+          <!-- end of single contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Section Finished -->
+
+
+
+
+
+  <!-- JQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Owl-Carousel Plug-in -->
+  <script scr="js/owl.carousel.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- FontAwesome JS -->
+  <script src="font-awesome/all.min.js"></script>
+  <script src="js/style.js"></script>
+
+
+</body>
+</html>

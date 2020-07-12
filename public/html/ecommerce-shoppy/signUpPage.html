@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ecommerce-Shoppy</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl/owl.theme.default.min.css"> 
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+<body>
+
+<!-- Header Section Begin -->
+<header>
+  <!-- Navbar-Top Section Begin -->
+  <section id="sectionNavbarTop">
+    <div class="container-fluid navbarTop pt-3 px-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+             <ul class="list-unstyled list-inline sectionTopLeft">
+                <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-language navbarIcon mr-2"></i>Language</a>
+                  <div class="dropdown-menu text-center">
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/ban1.png" alt="" class="mr-2">Bangla</a>
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/usa1.png" alt="" class="mr-2">English</a> 
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/ind1.png" alt="" class="mr-2">Hindi</a>
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/fra1.png" alt="" class="mr-2">Francian</a>
+                  </div>
+                </li>
+             </ul>
+          </div>
+          <div class="col-md-9">
+            <ul class="list-unstyled list-inline float-right sectionTopRight">
+                <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user navbarIcon mr-2"></i>Account</a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item"><i class="far fa-user-circle accountIcon mr-2"></i>My Account</a>
+                      <a href="loginPage.html" class="dropdown-item"><i class="fas fa-sign-in-alt accountIcon mr-2"></i>Login</a>
+                      <a href="signUpPage.html" class="dropdown-item"><i class="fas fa-user-plus accountIcon mr-2"></i>Sign-Up</a>
+                  </div>
+                </li>
+                <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-shopping-cart navbarIcon mr-2 navbarCartIcon"></i>Cart<span class="badge badge-secondary myCartBadge">2</span></a>
+                  <div class="dropdown-menu">
+                      <a href="cartPage.html" class="dropdown-item">My Cart</a>
+                  </div>
+                </li>
+                <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-hand-holding-heart navbarIcon mr-2"></i>Wishlist<span class="badge badge-secondary myCartBadge">2</span></a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Something Add Here...</a>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Navbar-Top Section Finished -->
+
+  <!-- Header-Bottom Section Begin -->
+  <section id="sectionNavbarBottom">
+    <nav id="navbarBottom" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbarHeader">
+          <a class="navbar-brand navbarLogo" href="index.html"><img src="./img/logo/logo-3.png" alt="Logo3" class="">
+          <!-- <img src="./img/logo/logo-1.png" alt="Logo" class=""> -->
+          </a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+            <span class="sr-only mr-right">Toggle Search</span>
+            <i class="fas fa-search"></i>
+          </button> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+            <span class="navbar-toggler-icon ml-5 navbarToggleIcon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarBtnMenu">
+         <ul class="navbar-nav navbarActive mx-auto font-weight-bold">
+           <li class="nav-item dropdown active">
+             <a class="nav-link dropdown-toggle text-capitalize" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+               Product Categories
+             </a>
+             <div class="dropdown-menu">
+               <a class="dropdown-item" href="productCategory.html">Laptop/Notebook</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Tablet</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Mobile-phone</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Sound-box</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Ipod-player</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Head-phone</a>
+             </div>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="singleProduct.html">Single Product</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#aboutUs">About Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#portfolio">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#blog">Blog</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contactUs">Contact Us</a>
+           </li>
+         </ul>
+         <form action="" method="">
+           <div class="input-group searchBox">
+             <input class="form-control inputSearchBox" type="text" name="" placeholder="Search Here">
+             <div class="input-group-append">
+               <button class="btn btnSearchIcon" type="submit"><i class="fas fa-search searchIcon"></i></button>
+             </div>
+           </div>
+         </form>
+      </div>
+    </nav>
+  </section>
+  <!-- Header-Bottom Section Finished -->
+</header>
+<!-- Header-Top Finished -->
+
+<!-- Banner Section Begin -->
+<section class="banner">
+  <div
+    class="bannerLoginSignupPage d-flex align-items-center justify-content-center pl-3 pl-lg-5 text-center">
+    <div>
+      <h1 class="text-capitalize textTitle textSlanted display-3">
+        Ecommerce-Shoppy
+      </h1>
+      <h1 class="text-capitalize font-weight-bold display-4 text-light">
+        Sign-Up
+      </h1>
+    </div>
+  </div>
+      <div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb breadCrumb">
+          <li class="breadcrumb-item breadCrumbLink"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active text-light" aria-current="page">Sign-Up Page</li>
+        </ol>
+      </nav>
+    </div>
+</section>
+<!-- Banner Section Finished -->
+
+<!--================Sign-Up Section Begin =================-->
+<section class="loginArea my-5">
+    <div class="container">
+        <div class="signUpInner">
+            <div class="row d-flex justify-content-center">
+                <div class="col-8 col-md-6 col-lg-8">
+                  <div class="signUpTitle">
+                      <h2>create account</h2>
+                      <p>Follow the steps below to create email account enjoy the great mail.com emailing experience. Vivamus tempus risus vel felis condimentum, non vehicula est iaculis.</p>
+                  </div>
+                  <form class="loginForm row">
+                      <div class="col-lg-6 form-group">
+                        <label for="firstName" class="font-weight-bold">First Name :</label>
+                          <input class="form-control" type="text" name="firstName" placeholder="Enter First Name" id=
+                          "firstName">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="middleName" class="font-weight-bold">Middle Name :</label>
+                          <input class="form-control" type="text" name="middleName" placeholder="Enter Middle Name" id="middleName">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="lastName" class="font-weight-bold">Last Name :</label>
+                          <input class="form-control" type="text" name="lastName" placeholder="Enter Middle Name" id="lastName">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="email" class="font-weight-bold">Email Address :</label>
+                          <input class="form-control" type="email" name="email" placeholder="Enter Email Address" id="email">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="userName" class="font-weight-bold">User Name :</label>
+                          <input class="form-control" type="text" name="userName" placeholder="Enter User Name" id="userName">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="phoneNumber" class="font-weight-bold">Phone Number :</label>
+                          <input class="form-control" type="text" name="phone" placeholder="Enter Your Phone No." id="phoneNumber">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="password" class="font-weight-bold">Create Password :</label>
+                          <input class="form-control" type="password" name="password" placeholder="Enter New Password" id="password">
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label for="password" class="font-weight-bold">Again Confirm Password :</label>
+                          <input class="form-control" type="password" name="password" placeholder="Confirm Your Password" id="password">
+                      </div>
+                      <div class="col-lg-6 form-group mx-auto">
+                          <a href="#">
+                           <button type="submit" value="submit" class="btn submitBtn form-control">Register Now</button>
+                          </a>
+                      </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+
+
+
+<!-- Footer Section Begin -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 mx-auto text-center">
+        <h1
+          class="text-uppercase font-weight-bold text-light footerTitle text-center d-inline-block"
+        >
+          Ecommerce-Shoppy
+        </h1>
+        <div class="footer-icons my-5 d-flex justify-content-center">
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-google-plus"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <!-- end of  single icon -->
+        </div>
+        <!-- end footer icons -->
+        <p class="lead text-light text-capitalize w-75 mx-auto text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas
+          itaque minima rem esse aut eos inventore numquam nostrum placeat?
+        </p>
+        <div
+          class="footer-contact mt-5 d-flex justify-content-around flex-wrap"
+        >
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-map"></i>
+            </span>
+            </a>
+            <span class="text-light">99/A Goal-Pahar, Mehadi-Bag Lane.</span>
+          </div>
+          <!-- end of single contact -->
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-phone"></i>
+            </span>
+            </a>
+            <span class="text-light">Phone No : + (880) 1915 111222</span>  
+          </div>
+          <!-- end of single contact -->
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-envelope"></i>
+            </span>
+            </a>
+            <span class="text-light">Email Address : nomail@email.com</span>
+          </div>
+          <!-- end of single contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Section Finished -->
+
+
+
+  <!-- JQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Owl-Carousel Plug-in -->
+  <script scr="js/owl.carousel.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- FontAwesome JS -->
+  <script src="font-awesome/all.min.js"></script>
+  <script src="js/style.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+@import url("bootstrap.min.css");
+@import url("../font-awesome/font-awesome.min.css");
+@import url("../fontawesome/icofont.min.css");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.css");
+/* OpenSans Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet");
+/* Roboto Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet");
+/* Lato Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet");
+/* Raleway Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet");
+/* Lobstar Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet");
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ecommerce-Shoppy</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl/owl.theme.default.min.css"> 
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  
+</head>
+<body>
+
+<!-- Header Section Begin -->
+<header>
+  <!-- Navbar-Top Section Begin -->
+  <section id="sectionNavbarTop">
+    <div class="container-fluid navbarTop pt-3 px-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+             
+          </div>
+          <div class="col-md-9">
+            <ul class="list-unstyled list-inline float-right sectionTopRight">
+                <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user navbarIcon mr-2"></i>Account</a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item"><i class="far fa-user-circle accountIcon"></i>My Account</a>
+                      <a href="loginPage.html" class="dropdown-item"><i class="fas fa-sign-in-alt accountIcon"></i>Login</a>
+                      <a href="signUpPage.html" class="dropdown-item"><i class="fas fa-user-plus accountIcon"></i>Sign-Up</a>
+                  </div>
+                </li>
+                <li class="list-inline-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-language navbarIcon mr-2"></i>Language</a>
+                  <div class="dropdown-menu text-center">
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/ban1.png" alt="" class="mr-2">BAN</a>
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/usa1.png" alt="" class="mr-2">ENG</a> 
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/ind1.png" alt="" class="mr-2">IND</a>
+                      <a href="#" class="dropdown-item"><img src="./img/flagIcon/uk1.png" alt="" class="mr-2">BRI</a>
+                  </div>
+                </li>
+                <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-shopping-cart navbarIcon mr-2 navbarCartIcon"></i>My Cart<span class="badge badge-secondary myCartBadge">2</span></a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Something Add Here...</a>
+                  </div>
+                </li>
+                <li class="list-inline-item dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-hand-holding-heart navbarIcon mr-2"></i>My Wishlist<span class="badge badge-secondary myCartBadge">2</span></a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Something Add Here...</a>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Navbar-Top Section Finished -->
+
+  <!-- Header-Bottom Section Begin -->
+  <section id="sectionNavbarBottom">
+    <nav id="navbarBottom" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbarHeader">
+          <a class="navbar-brand navbarLogo" href="index.html"><img src="./img/logo/logo-3.png" alt="Logo3" class="">
+          <!-- <img src="./img/logo/logo-1.png" alt="Logo" class=""> -->
+          </a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+            <span class="sr-only mr-right">Toggle Search</span>
+            <i class="fas fa-search"></i>
+          </button> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBtnMenu">
+            <span class="navbar-toggler-icon ml-5 navbarToggleIcon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarBtnMenu">
+         <ul class="navbar-nav navbarActive mx-auto font-weight-bold">
+           <li class="nav-item dropdown active">
+             <a class="nav-link dropdown-toggle text-capitalize" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+               Product Categories
+             </a>
+             <div class="dropdown-menu">
+               <a class="dropdown-item" href="productCategory.html">Laptop/Notebook</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Tablet</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Mobile-phone</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Sound-box</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Ipod-player</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Head-phone</a>
+             </div>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link active" href="singleProduct.html">Single Product</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#aboutUs">About Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#portfolio">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#blog">Blog</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contactUs">Contact Us</a>
+           </li>
+         </ul>
+         <form action="" method="">
+           <div class="input-group searchBox">
+             <input class="form-control inputSearchBox" type="text" name="" placeholder="Search Here">
+             <div class="input-group-append">
+               <button class="btn btnSearchIcon" type="submit"><i class="fas fa-search searchIcon"></i></button>
+             </div>
+           </div>
+         </form>
+      </div>
+    </nav>
+  </section>
+  <!-- Header-Bottom Section Finished -->
+</header>
+<!-- Header-Top Finished -->
+
+<!-- Banner Section Begin -->
+<section class="banner">
+  <div
+    class="bannerSingleProduct d-flex align-items-center justify-content-center pl-3 pl-lg-5 text-center">
+    <div>
+      <h1 class="text-capitalize textTitle textSlanted display-3">
+        Ecommerce-Shoppy
+      </h1>
+      <h1 class="text-capitalize font-weight-bold display-4 text-light">
+        Single Product
+      </h1>
+    </div>
+  </div>
+</section>
+<!-- Banner Section Finished -->
+
+<!-- Single Products Section Begin -->
+<section class="singleProducts py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 mx-auto col-lg-4 text-center my-5">
+        <div class="singleProductImgContainer">
+          <img
+            src="img/products/product-1.jpg"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="row singleProductPhotos mt-3">
+          <!-- single photo -->
+          <div class="col-2 col-sm-2 singleProductPhoto p-1">
+            <img
+              src="img/products/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <!-- endo of single photo -->
+          <!-- single photo -->
+          <div class="col-2 col-sm-2 singleProductPhoto p-1">
+            <img
+              src="img/products/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <!-- endo of single photo -->
+          <!-- single photo -->
+          <div class="col-2 col-sm-2 singleProductPhoto p-1">
+            <img
+              src="img/products/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <!-- endo of single photo -->
+          <!-- single photo -->
+          <div class="col-2 col-sm-2 singleProductPhoto p-1">
+            <img
+              src="img/products/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <!-- endo of single photo -->
+          <!-- single photo -->
+          <div class="col-2 col-sm-2 singleProductPhoto p-1">
+            <img
+              src="img/products/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <!-- endo of single photo -->
+          <!-- single photo -->
+          <div class="col-2 col-sm-2 singleProductPhoto p-1">
+            <img
+              src="img/products/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <!-- endo of single photo -->
+        </div>
+      </div>
+      <!-- info -->
+      <div class="col-10 mx-auto col-lg-8 singleProductInfo my-5 px-lg-5">
+        <!-- ratings -->
+        <div class="ratings">
+          <span class="ratingIcon"><i class="fas fa-star"></i></span>
+          <span class="ratingIcon"><i class="fas fa-star"></i></span>
+          <span class="ratingIcon"><i class="fas fa-star"></i></span>
+          <span class="ratingIcon"><i class="fas fa-star"></i></span>
+          <span class="ratingIcon"><i class="far fa-star"></i></span>
+          <span class="text-capitalize">(25 customer reviews)</span>
+        </div>
+        <!-- end of ratings -->
+        <h2 class="text-uppercase my-2">premium office armchair</h2>
+        <h2>$10.00 - $200.00</h2>
+        <p class="lead text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          porro.
+        </p>
+        <!-- colors -->
+        <h5 class="text-uppercase">
+          colors :
+          <span
+            class="d-inline-block productsColor productsColorBlack mr-2"
+          ></span>
+          <span
+            class="d-inline-block productsColor productsColorRed mr-2"
+          ></span>
+          <span
+            class="d-inline-block productsColor productsColorBlue mr-2"
+          ></span>
+        </h5>
+        <!-- end of colors -->
+        <!-- sizes -->
+        <h5 class="text-uppercase">
+          sizes : <span class="mx-2">xs</span> <span class="mx-2">s</span>
+          <span class="mx-2">m</span> <span class="mx-2">l</span>
+          <span class="mx-2">xl</span>
+        </h5>
+        <div class="d-flex flex-wrap">
+          <!-- cart buttons -->
+          <div class="d-flex my-2">
+            <span class="btn btnBlack mx-1">-</span>
+            <span class="btn btnBlack mx-1">4</span>
+            <span class="btn btnBlack mx-1">+</span>
+          </div>
+          <button class="btn btnBlack my-2 mx-2">wishlist</button>
+          <button class="btn btnYellow my-2 mx-2">add to cart</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Single Products Section Finished -->
+
+<!-- product info -->
+<section class="">
+  <div class="container">
+    <div class="row">
+      <div class="col mx-auto">
+        <div class="productInformation mb-5 p-4">
+          <!-- product info links -->
+          <div
+            class="d-flex justify-content-around flex-wrap my-3 text-center"
+          >
+            <a href="#" class="productInfoLink">
+              <h4 class="text-capitalize">description</h4>
+            </a>
+            <a href="#" class="productInfoLink">
+              <h4 class="text-capitalize">additional information</h4>
+            </a>
+            <a href="#" class="productInfoLink">
+              <h4 class="text-capitalize">reviews (25)</h4>
+            </a>
+          </div>
+
+          <!-- end of product info links -->
+          <p class="lead text-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+            debitis, facere similique fuga repudiandae itaque inventore
+            minus quos hic non provident a voluptate? Accusantium dolores
+            architecto consequatur facere, aliquid cum excepturi vitae
+            molestias ab. Culpa numquam nobis beatae est dolore.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of product info -->
+
+
+<!-- Featured Products Section Begin -->
+<section class="pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 mx-auto text-center">
+        <div class="latestProductTitle my-4 py-1">
+          <h1 class="text-uppercase">Our Featured Product</h1>
+          <!-- <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, Aliquam accusantium lorem consectetur adipisicing elit.</p> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Single Products Begin -->
+      <div class="col-10 mx-auto col-md-6 col-lg-3">
+        <div class="singleLatestProduct mt-4">
+          <div class="singleProduct">
+            <img src="img/products/product-1.jpg" alt="Laptop-Product-1" class="img-fluid">
+            <a href="#">
+            <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fas fa-eye mr-2"></i>Quick View</span></a>
+            <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+            <hr>
+            <h5 class="singleProductheading ext-capitalize text-center my-3">latest Notebook-1</h5>
+            <h6 class="singleProductheading text-center">
+              <span class="singleProductOldprice mx-2 text-muted">$1500</span>
+              <span>$1250</span>
+            </h6>
+         </div>
+        </div>
+      </div>
+      <!-- Single Products Finished -->
+       <!-- Single Products Begin -->
+      <div class="col-10 mx-auto col-md-6 col-lg-3">
+         <div class="singleLatestProduct mt-4">
+           <div class="singleProduct">
+           <img src="img/products/product-5.jpg" alt="Laptop-Product-1" class="img-fluid">
+           <a href="#">
+           <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+           <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+           <hr>
+         <h5 class="singleProductheading ext-capitalize text-center my-3">latest Tablet-1</h5>
+         <h6 class="singleProductheading text-center">
+           <span class="singleProductOldprice mx-2 text-muted">$500</span>
+           <span>$350</span>
+         </h6>
+        </div>
+       </div>
+     </div>
+        <!-- Single Products Finished -->
+        <!-- Single Products Begin -->
+        <div class="col-10 mx-auto col-md-6 col-lg-3">
+          <div class="singleLatestProduct mt-4">
+            <div class="singleProduct">
+            <img src="img/products/product-6.jpg" alt="Laptop-Product-1" class="img-fluid">
+            <a href="#">
+            <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+            <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+            <hr>
+          <h5 class="singleProductheading ext-capitalize text-center my-3">latest Headphone-1</h5>
+          <h6 class="singleProductheading text-center">
+            <span class="singleProductOldprice mx-2 text-muted">$150</span>
+            <span>$100</span>
+          </h6>
+          </div>
+          </div>
+        </div>
+         <!-- Single Products Finished -->
+         <!-- Single Products Begin -->
+         <div class="col-10 mx-auto col-md-6 col-lg-3">
+           <div class="singleLatestProduct mt-4">
+             <div class="singleProduct">
+             <img src="img/products/product-7.jpg" alt="Laptop-Product-1" class="img-fluid">
+             <a href="#">
+             <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+             <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+             <hr>
+           <h5 class="singleProductheading ext-capitalize text-center my-3">latest Soundbox-1</h5>
+           <h6 class="singleProductheading text-center">
+             <span class="singleProductOldprice mx-2 text-muted">$200</span>
+             <span>$150</span>
+           </h6>
+           </div>
+           </div>
+         </div>
+          <!-- Single Products Finished -->
+          <!-- Single Products Begin -->
+          <div class="col-10 mx-auto col-md-6 col-lg-3">
+            <div class="singleLatestProduct my-4">
+              <div class="singleProduct">
+              <img src="img/products/product-2.jpg" alt="Laptop-Product-1" class="img-fluid">
+              <a href="#">
+              <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+              <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+              <hr>
+            <h5 class="singleProductheading ext-capitalize text-center my-3">latest MobilePhone-1</h5>
+            <h6 class="singleProductheading text-center">
+              <span class="singleProductOldprice mx-2 text-muted">$500</span>
+              <span>$450</span>
+            </h6>
+            </div>
+            </div>
+          </div>
+           <!-- Single Products Finished -->
+       <!-- Single Products Begin -->
+        <div class="col-10 mx-auto col-md-6 col-lg-3">
+         <div class="singleLatestProduct my-4">
+          <div class="singleProduct">
+            <img src="img/products/product-3.jpeg" alt="Laptop-Product-1" class="img-fluid">
+            <a href="#">
+            <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+            <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+           <hr>
+           <h5 class="singleProductheading ext-capitalize text-center my-3">latest ipod-1</h5>
+           <h6 class="singleProductheading text-center">
+             <span class="singleProductOldprice mx-2 text-muted">$300</span>
+             <span>$250</span>
+           </h6>
+          </div>
+         </div>
+        </div>
+        <!-- Single Products Finished -->
+        <!-- Single Products Begin -->
+        <div class="col-10 mx-auto col-md-6 col-lg-3">
+          <div class="singleLatestProduct my-4">
+            <div class="singleProduct">
+              <img src="img/products/product-9.jpg" alt="Laptop-Product-1" class="img-fluid">
+              <a href="#">
+              <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+              <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+              <hr>
+            <h5 class="singleProductheading ext-capitalize text-center my-3">latest game controller-1</h5>
+            <h6 class="singleProductheading text-center">
+              <span class="singleProductOldprice mx-2 text-muted">$200</span>
+              <span>$150</span>
+            </h6>
+            </div>
+          </div>
+        </div>
+             <!-- Single Products Finished -->
+        <!-- Single Products Begin -->
+        <div class="col-10 mx-auto col-md-6 col-lg-3">
+          <div class="singleLatestProduct my-4">
+            <div class="singleProduct">
+               <img src="img/products/product-10.jpg" alt="Laptop-Product-1" class="img-fluid">
+               <a href="#">
+               <span class="singleProductView" data-toggle="modal" data-target="#singleProductModel"><i class="fa fa-eye mr-2" aria-hidden="true"></i>Quick View</span></a>
+               <a href="#" class="singleProductCart text-capitalize"><i class="fas fa-dolly mr-2"></i>add to cart</a>
+              <hr>
+             <h5 class="singleProductheading ext-capitalize text-center my-3">latest keyboard-1</h5>
+             <h6 class="singleProductheading text-center">
+               <span class="singleProductOldprice mx-2 text-muted">$150</span>
+               <span>$100</span>
+             </h6>
+            </div>
+         </div>
+        </div>
+        <!-- Single Products Finished -->
+    </div>
+  </div>
+
+  <!--  Latest Products Section Modal Begin -->
+    <div class="modal fade" id="singleProductModel" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- modal header -->
+          <div class="modal-header">
+            <h5 class="modal-title text-capitalize">product info</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!--end of  modal header -->
+          <!-- modal body -->
+          <div class="modal-body">
+            <div class="row">
+              <div class="col text-center">
+                <img src="img/products/product-1.jpg" class="img-fluid" alt="" />
+                <!-- ratings -->
+                <div class="ratings my-4">
+                  <span class="ratingIcon"><i class="fas fa-star"></i></span>
+                  <span class="ratingIcon"><i class="fas fa-star"></i></span>
+                  <span class="ratingIcon"><i class="fas fa-star"></i></span>
+                  <span class="ratingIcon"><i class="fas fa-star"></i></span>
+                  <span class="ratingIcon"><i class="far fa-star"></i></span>
+                  <span class="text-capitalize">(25 customer reviews)</span>
+                </div>
+                <!-- end of ratings -->
+                <h2 class="text-uppercase my-3">Latest Laptop-1</h2>
+                <h2>$10.00 - $200.00</h2>
+                <p class="lead text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+                  porro.
+                </p>
+                <!-- colors -->
+                <h5 class="text-uppercase">
+                  colors :
+                  <span class="d-inline-block productsColor productsColorBlack mr-2"></span>
+                  <span class="d-inline-block productsColor productsColorRed mr-2"></span>
+                  <span class="d-inline-block productsColor productsColorBlue mr-2"></span>
+                </h5>
+                <!-- end of colors -->
+                <!-- sizes -->
+                <h5 class="text-uppercase">
+                  sizes : <span class="mx-3">xs</span> <span class="mx-2">s</span>
+                  <span class="mx-2">m</span> <span class="mx-2">l</span>
+                  <span class="mx-2">xl</span>
+                </h5>
+                <div class="d-flex flex-wrap m-auto">
+                  <!-- cart buttons -->
+                  <div class="d-flex my-3">
+                    <span class="btn btnBlack my-2 mx-1">-</span>
+                    <span class="btn btnBlack my-2 mx-1">4</span>
+                    <span class="btn btnBlack my-2 mx-1">+</span>
+                  </div>
+                  <button class="btn btnBlack my-4 mx-2">wishlist</button>
+                  <button class="btn btnYellow my-4 mx-2">add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end modal body -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">close modal</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  <!--  Latest Products Section modal Finished -->
+
+
+ </section>
+<!-- Latest Products Section Finished -->
+
+<!-- Our Brand Section Begin -->
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 mx-auto text-center">
+        <div class="brandTitle py-1">
+          <h1 class="text-uppercase">Our Brand</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ourBrand my-5">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- compnay carousel -->
+        <div class="col-6 col-md-6 col-lg-4 mx-auto py-5">
+          <div
+            id="brandCarousel"
+            class="carousel slide "
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- single item -->
+              <div class="carousel-item active">
+                <img
+                  src="img/brand/brand1.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand2.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand3.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand4.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item ">
+                <img
+                  src="img/brand/brand5.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+              <!-- single item -->
+              <div class="carousel-item">
+                <img
+                  src="img/brand/brand6.jpg"
+                  class="d-block w-100"
+                  alt="Brand company"
+                />
+              </div>
+              <!-- end single item -->
+            </div>
+            <a
+              href="#brandCarousel"
+              class="carousel-control-prev brandCarouselPrev"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fas fa-arrow-left"></i>
+            </a>
+            <a
+              href="#brandCarousel"
+              class="carousel-control-next brandCarouselNext"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>    
+<!-- Our Brand Section Finished -->
+
+<!-- Newsletter Section Begin -->
+<section class="newsletter py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 mx-auto text-center">
+        <h2 class="text-uppercase">Newsletter</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          blanditiis similique eum, aut culpa maiores cupiditate alias
+          exercitationem error nesciunt.
+        </p>
+        <form>
+          <div class="input-group mt-5 mb-4">
+            <input
+              type="text"
+              class="form-control text-capitalize"
+              placeholder="Enter your email"
+            />
+            <div class="input-group-append">
+              <div class="input-group-text form-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btnSubscribe">subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Newsletter Section Finished -->
+
+<!-- Footer Section Begin -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 mx-auto text-center">
+        <h1
+          class="text-uppercase font-weight-bold text-light footerTitle text-center d-inline-block"
+        >
+          Ecommerce-Shoppy
+        </h1>
+        <div class="footer-icons my-5 d-flex justify-content-center">
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-google-plus"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- end of  single icon -->
+          <!-- single icon -->
+          <a href="#" class="footerIcon mx-2">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <!-- end of  single icon -->
+        </div>
+        <!-- end footer icons -->
+        <p class="lead text-light text-capitalize w-75 mx-auto text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas
+          itaque minima rem esse aut eos inventore numquam nostrum placeat?
+        </p>
+        <div
+          class="footer-contact mt-5 d-flex justify-content-around flex-wrap"
+        >
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-map"></i>
+            </span>
+            </a>
+            <span class="text-light">99/A Goal-Pahar, Mehadi-Bag Lane.</span>
+          </div>
+          <!-- end of single contact -->
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-phone"></i>
+            </span>
+            </a>
+            <span class="text-light">Phone No : + (880) 1915 111222</span>  
+          </div>
+          <!-- end of single contact -->
+          <!-- single contact -->
+          <div class="text-capitalize">
+            <a href="#">
+            <span class="footerIcon mr-2">
+              <i class="fas fa-envelope"></i>
+            </span>
+            </a>
+            <span class="text-light">Email Address : nomail@email.com</span>
+          </div>
+          <!-- end of single contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Section Finished -->
+
+
+
+
+
+
+	<!-- JQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Owl-Carousel Plug-in -->
+  <script scr="js/owl.carousel.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- FontAwesome JS -->
+  <script src="font-awesome/all.min.js"></script>
+  <script src="js/style.js"></script>
+
+</body>
+</html>

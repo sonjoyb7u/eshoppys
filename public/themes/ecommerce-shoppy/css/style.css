@@ -1,0 +1,1588 @@
+/* @import url("bootstrap.min.css"); */
+/* OpenSans Google Fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"); */
+/* Roboto Google Fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"); */
+/* Lobstar Google Fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"); */
+/* Font Awesome */
+/* @import url("../font-awesome/font-awesome.min.css");
+@import url("../font-awesome/icofont.min.css"); */
+/* Owl Carousel */
+/* @import url("../owl/owl.carousel.min.css");
+@import url("../owl/owl.theme.default.min.css"); */
+
+
+/*========================  CSS Style ==============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
+}
+
+/*---------  Navbar-Top Section CSS ---------- */
+#sectionNavbarTop {
+    background-color: #7642C3;
+}
+.navbar-toggler {
+    outline: none !important;
+    border: none;
+    font-size: 1.5rem;
+    color: #FF8009 !important;
+}
+.navbarTop ul li a {
+    color:#FFE484;
+    text-decoration: none;
+}
+.navbarIcon:hover {
+    color: #fff;
+}
+.navbarTop ul li a:hover {
+    color:#fff;
+}
+.sectionTopLeft .dropdown-menu a{
+    color: #7642C3;
+}
+.sectionTopLeft .dropdown-menu a:hover {
+    color: #7642C3;
+}
+.sectionTopRight .dropdown-menu a{
+    color: #7642C3;
+}
+.accountIcon {
+  color:#FFE484;
+}
+.sectionTopRight .dropdown-menu a:hover {
+    color: #7642C3;
+}
+.navbarIcon {
+    color: #FFE484;
+    font-size: 18px;
+}
+.myCartBadge {
+    background-color: #FF8009;
+    color: #7642C3;
+    position: absolute;
+    font-size: 11px;
+    bottom: 17px;
+    right: 5px;
+}
+
+/*--------- Navbar-Bottom Section CSS---------- */
+#sectionNavbarBottom {
+  background-color: rgba(133, 80, 209, 0.3);
+}
+.navbarActive li a:hover {
+    border-bottom: 0.2rem solid #FFE484;
+}
+.searchBox {
+    width: 220px;
+}
+.inputSearchBox {
+    border: 1px solid #7642C3 !important;
+    border-radius: 5px 0 0 5px !important;
+    color: #7642C3;
+    font-size: 15px;
+    outline: none !important;
+}
+.btnSearchIcon {
+    background-color: rgba(133, 80, 209, 0.3);
+    color: #FFE484;
+    text-decoration: none;
+    width: 30px;
+    height: 37px;
+    padding: 2px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #7642C3;
+}
+.btnSearchIcon:hover {
+  background-color: #FFE484;
+}
+
+/*--------- Slider Section CSS---------- */
+.mySlidersItem-1,
+.mySlidersItem-2,
+.mySlidersItem-3 {
+    min-height: 80vh;
+}
+.mySlidersItem-1 {
+   background: linear-gradient(to right, rgba(255, 128, 9,0.4),rgba(118, 66, 195, 0.4)),url(../img/slider/slider-1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+}
+.mySlidersItem-2 {
+    background: linear-gradient(to right, rgba(255, 128, 9,0.4),rgba(118, 66, 195, 0.4)),url(../img/slider/slider-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.mySlidersItem-3 {
+    background: linear-gradient(to right, rgba(255, 128, 9,0.4),rgba(118, 66, 195, 0.4)),url(../img/slider/slider-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.captionOffer {
+  margin-bottom: 120px;
+}
+
+.mySlidersBtn {
+    color: #fff;
+    border: 3px solid #7642C3 !important;
+    transition: all 1s ease;
+}
+.mySlidersBtn:hover {
+    background: #FFE484;
+    border: solid #FFE484 !important;
+}
+
+/*--------- Service Section CSS---------- */
+.serviceSection {
+  margin-top: 20px;
+}
+.serviceTitle {
+    background-color: #7642C3;
+    color: #fff;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0 100%);
+}
+.serviceIcon {
+    display: inline-block;
+    color: #FFE484;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(133, 80, 209, 0.3);
+}
+.serviceIcon:hover {
+  background-color: #FFE484;
+  color: #7642C3;
+  border: 1px solid #FFE484;
+}
+
+/*--------- Products Categories Section CSS ---------- */
+a.productCategoryView {
+  color: #FFE484;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+}
+a.productCategoryView span.productCategoryText {
+  font-size: 15px;
+  font-weight: bold;
+  color: #7642C3;
+}
+.CategoryUnderline {
+  height: 3px;
+  width: 50%;
+  background-color: #000;
+}
+.productCategoryRight:hover .productCategoriesImage {
+  opacity: 0.6;
+}
+.productCategoriesImage {
+  transition: all 1s linear;
+}
+.productCategoryRight {
+  position: relative;
+  overflow: hidden;
+}
+a.productCategoryHeading {
+  color: #FFE484;
+  text-decoration: none;
+}
+a.productCategoryHeading:hover {
+  color: #fff;
+}
+.productCategoryHeading {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(133, 80, 209, 0.7);
+  border-radius: 15px 0 15px 0;
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: translateX(-110%);
+  cursor: pointer;
+}
+.productCategoryRight:hover .productCategoryHeading {
+  transform: translateX(0%);
+  transition: all 0.9s ease-in-out;
+}
+.productCategoryPrev, .productCategoryNext {
+    width: 7% !important;
+    background-color: #000;
+    height: 40px;
+    margin-top: 202px;
+    padding: 20px;
+}
+
+/*--------- Latest Products Section CSS---------- */
+
+.latestProductTitle {
+    background-color: #7642C3;
+    color: #fff;
+    clip-path: polygon(7% 0, 100% 0%, 93% 100%, 0 100%);
+}
+.singleLatestProduct {
+  position: relative;
+  overflow: hidden;
+}
+.singleProductView {
+  background-color: rgba(133, 80, 209, 0.7);
+  color: #FFE484;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 10px 0 10px 0;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  font-size: 17px;
+  font-weight: bold;
+  transform: translateX(110%);
+  cursor: pointer;
+}
+.singleLatestProduct:hover .singleProductView {
+  transform: translateX(0%);
+  transition: all 0.8s ease-in-out;
+}
+.singleProductView:hover {
+    color: #fff;
+}
+.singleProductCart {
+  background-color: rgba(133, 80, 209, 0.6);
+  color: #FFE484;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 10px 0 10px 0;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  font-size: 17px;
+  font-weight: bold;
+  transform: translateX(110%);
+  cursor: pointer;
+}
+.singleLatestProduct:hover .singleProductCart {
+  transform: translateX(0%);
+  transition: all 0.8s ease-in-out;
+}
+.singleProductCart:hover {
+  color: #fff;
+}
+.singleProductView {
+  text-decoration: none;
+}
+a.singleProductCart {
+  text-decoration: none;
+}
+.singleProduct {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid rgba(133, 80, 209, 0.3);
+  border-radius: 5px;
+}
+.singleProductOldprice {
+  text-decoration: line-through;
+}
+
+.ratingIcon {
+    color: #FFE484;
+}
+.productsColorBlack {
+  background: black;
+}
+.productsColorRed {
+  background: red;
+}
+.productsColorBlue {
+  background: blue;
+}
+.productsColor {
+    width: 1rem;
+    height: 1rem;
+}
+.btnYellow {
+  background-color: #FFE484;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #7642C3;
+  border-radius: 0 !important;
+
+}
+.btnYellow:hover {
+  background-color: #fff;
+  color: #FFE484;
+  border: 0.1rem solid rgba(133, 80, 209, 0.3);
+}
+.btnBlack {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #FFE484;
+  border-radius: 0 !important;
+  border: 0.1rem solid rgba(133, 80, 209, 0.3);
+}
+.btnBlack:hover {
+  background-color: #FFE484;
+  color: #7642C3;
+  border: 1px solid #FFE484;
+}
+/*--------- Our Brand Section CSS---------- */
+.ourBrand {
+  background: rgba(133, 80, 209, 0.5);
+}
+.brandTitle {
+  background-color: #7642C3;
+  color: #fff;
+  clip-path: polygon(7% 0, 100% 0%, 93% 100%, 0 100%);
+}
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: #FFE484;
+}
+.carousel-control-next {
+  font-size: 2.5rem;
+  color: #FFE484;
+}
+.carousel-control-prev:hover {
+  color: #7642C3;
+}
+.carousel-control-next:hover {
+  color: #7642C3;
+}
+.brandCarouselPrev {
+  margin-left: -50px;
+}
+.brandCarouselNext {
+  margin-right: -50px;
+}
+
+/*-------------- Newsletter Section CSS  --------------*/
+.btnSubscribe {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #FFE484;
+  border-radius: 0 !important;
+  border: 0.1rem solid rgba(133, 80, 209, 0.3);
+}
+.btnSubscribe:hover {
+  background-color: #FFE484;
+  color: #7642C3;
+  border: 1px solid #FFE484;
+}
+
+/*-------------- Footer Section CSS  --------------*/
+.footer {
+  background: #7642C3;
+}
+.footerTitle {
+  border: 0.2rem solid #FFE484;
+  padding: 0.5rem;
+}
+.footerMiddleTitle {
+    /*border: 0.2rem solid #FFE484;*/
+    padding-bottom: 20px;
+}
+.footerMiddleTitle h3 {
+    font-size: 18px;
+    /*font-family: "Poppins", sans-serif;*/
+    font-weight: 600;
+    color: #0b1033;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+.footerMiddleTitle h3::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #FFE484;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.linkText ul li a {
+    text-decoration: none !important;
+}
+
+
+.footerIcon {
+  color: #FFE484;
+  font-size: 20px;
+
+}
+.footerIcon:hover a {
+  text-decoration: none !important;
+}
+.footerIcon:hover {
+  color: #fff;
+}
+
+/* ======================================================================== */
+
+/*-------------- Single Products Section CSS  --------------*/
+.bannerSingleProduct {
+  min-height: 50vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 128, 9,0.4),
+    rgba(118, 66, 195, 0.4)
+    ),
+    url("../img/slider/slider-6.jpeg")center/cover fixed no-repeat;
+}
+.textSlanted {
+  font-family: 'Lobster', cursive;
+}
+.textTitle {
+  color: #FFE484;
+}
+.singleProductPhoto {
+  background: rgb(133, 80, 209);
+  opacity: 0.5;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 1px solid transparent;
+  box-sizing: border-box !important;
+}
+.singleProductPhoto:hover {
+  border-color: rgb(133, 80, 209);
+  opacity: 1;
+}
+.productInformation {
+  background-color: rgba(133, 80, 209, 0.6);
+  border-radius: 5px;
+}
+.productInfoLink {
+  color: #FFE484;
+  text-decoration: none !important;
+}
+.productInfoLink:hover {
+  color: #7642C3;
+}
+
+/* ======================================================================== */
+
+/*-------------- Products Category Section CSS  --------------*/
+.bannerProductCategory {
+  min-height: 50vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 128, 9,0.4),
+    rgba(118, 66, 195, 0.4)
+    ),  url("../img/slider/slider-6.jpeg")center/cover fixed no-repeat;
+}
+.productCategoriesUnderline {
+  height: 0.2rem;
+  width: 5rem;
+  background-color: #7642C3;
+}
+.productCategoriesLink {
+  color: #7642C3;
+  text-decoration: none !important;
+}
+.productCategoriesLink:hover {
+  color: #FFE484;
+}
+.productColor {
+  width: 1rem;
+  height: 1rem;
+}
+.productColorBlack {
+  background: black;
+}
+.productColorRed {
+  background: red;
+}
+.productColorBlue {
+  background: blue;
+}
+.productColorGreen {
+  background: green;
+}
+.productColorYellow {
+  background: yellow;
+}
+.priceRange {
+  color: #7642C3;
+}
+.productCategorySearchBox {
+    border: 1px solid #7642C3 !important;
+    border-radius: 0 5px 5px 0 !important;
+    color: #7642C3;
+    font-size: 15px;
+    outline: none !important;
+}
+.btnProductCategorySearchIcon {
+    background-color: rgba(133, 80, 209, 0.3);
+    color: #FFE484;
+    text-decoration: none;
+    width: 35px;
+    height: 37px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px !important;
+    border: 1px solid #7642C3;
+}
+.btnProductCategorySearchIcon:hover {
+  background-color: #FFE484;
+}
+
+
+/* ======================================================================== */
+
+/*-------------- Login And Signup Page Section CSS  --------------*/
+.bannerLoginSignupPage {
+  min-height: 50vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 128, 9,0.4),
+    rgba(118, 66, 195, 0.4)
+    ),  url("../img/slider/slider-4.jpg")center/cover fixed no-repeat;
+}
+.breadCrumb {
+  background-color: transparent !important;
+  margin-top: -63px;
+}
+.loginInner {
+    margin-top: 10%;
+}
+.loginForm .form-group {
+  margin-bottom: 30px;
+}
+.loginForm .form-group input {
+  height: 50px;
+  border: 1px solid #7642C3;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0px 20px;
+  box-shadow: none;
+  line-height: 50px;
+}
+.loginForm .form-group input.placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+.login_form .form-group input::-moz-placeholder  {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+.loginForm .form-group input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+.loginForm .form-group h4 {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #d91522;
+  font-weight: bold;
+  letter-spacing: .30px;
+  display: inline-block;
+  float: right;
+  padding-top: 8px;
+}
+.loginForm .updateBtn {
+  line-height: 35px;
+  background-color: rgba(133, 80, 209); 
+  border: none;
+  border-radius: none;
+  color: #fff;
+}
+.loginForm a.updateBtn:hover {
+  background-color: #7642C3;
+  color: #fff; 
+}
+.loginForm .form-group .creatAccount {
+  display: inline-block;
+  float: left;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+.loginForm .form-group .creatAccount input {
+  height: auto;
+  border: none;
+}
+.loginForm .form-group .creatAccount .check {
+  background: #fff;
+}
+.loginForm .form-group h4 {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #d91522;
+  font-weight: normal;
+  letter-spacing: .30px;
+  display: inline-block;
+  float: right;
+  padding-top: 8px;
+}
+.loginForm .submitBtn {
+  line-height: 35px;
+  background-color: rgba(133, 80, 209); 
+  border: none;
+  border-radius: none;
+  color: #fff;
+
+}
+
+
+/* ======================================================================== */
+
+/*-------------- Carts Page Section CSS  --------------*/
+.bannerCartPage {
+  min-height: 60vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 128, 9,0.4),
+    rgba(118, 66, 195, 0.4)
+    ),  url("../img/slider/slider-5.jpg")center/cover fixed no-repeat;
+}
+.shoppingCart {
+  margin-top: 80px;
+}
+.cartProductList {
+  padding-right: 30px;
+}
+
+.cartProductList .table {
+  margin-bottom: 0px;
+}
+
+.cartProductList .table thead tr th {
+  border-top: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  border-bottom: 1px solid #e9ecf2;
+  text-align: center;
+}
+
+.cartProductList .table thead tr th:nth-child(2) {
+  text-align: left;
+}
+
+.cart_product_list .table tbody {
+  border-bottom: 1px solid #e9ecf2;
+}
+
+.cartProductList .table tbody tr {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+}
+
+.cartProductList .table tbody tr th {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.cartProductList .table tbody tr td {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  padding: 28px 10px;
+}
+
+.cartProductList .table tbody tr td .media .d-flex {
+  padding-right: 30px;
+}
+
+.cartProductList .table tbody tr td .media .media-body {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: left;
+}
+
+.cartProductList .table tbody tr td .media .media-body h4 {
+  font-size: 14px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartProductList .table tbody tr td p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.cartProductList .table tbody tr td input {
+  border: 1px solid #e9ecf2;
+  width: 70px;
+  text-align: center;
+  height: 47px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartProductList .table tbody tr td input.placeholder {
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartProductList .table tbody tr td input:-moz-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartProductList .table tbody tr td input::-moz-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartProductList .table tbody tr td input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+.cartProductList .cardProductListBtn {
+  margin-top: 20px;
+}
+.cardProductListBtn .clearCart {
+  float: left;
+  margin-left: 15px;
+  border: none !important;
+  background-color: #7642C3;
+  border-radius: 0 !important;
+  color: #fff;
+}
+.cardProductListBtn .totalCart {
+  float: right;
+  margin-right: 15px;
+  border: none !important;
+  background-color: #7642C3;
+  border-radius: 0 !important;
+  color: #fff;
+}
+.cuponBox {
+  margin-bottom: 55px;
+    margin-left: 63px;
+}
+
+.cuponBox .cuponBoxInner {
+  background: #eeeeee;
+  padding: 60px 62px 50px 62px;
+}
+
+.cuponBox .cuponBoxInner input {
+  width: 100%;
+  display: block;
+  height: 58px;
+  border: 1px solid #babdc2;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.cuponBox .cuponBoxInner input.placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.cuponBox .cuponBoxInner input:-moz-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.cuponBox .cuponBoxInner input::-moz-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.cuponBox .cuponBoxInner input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.cuponBox .cuponBoxInner .submitBtn {
+  width: 100%;
+  display: block;
+  line-height: 55px;
+  margin-top: 25px;
+  background-color: #7642C3;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+.cartTotals {
+  margin: 160px 0;
+}
+.cartProductList .cartTotals .cartTotalInner {
+  background: #eeeeee;
+  padding: 56px 60px 65px 60px;
+  margin-bottom: 20px;
+
+}
+.cartProductList .cartTotals .cartTotalInner ul li {
+  list-style: none;
+
+}
+
+.cartProductList .cartTotals .cartTotalInner ul li a {
+  border-bottom: 1px solid #4c4c4c;
+  display: block;
+  padding: 6px 5px;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+
+}
+
+.cartProductList .cartTotals .cartTotalInner ul li a span {
+  max-width: 172px;
+  display: inline-block;
+  width: 100%;
+}
+.cartProductList .cartTotals .updateBtn {
+  margin-left: 20px;
+  background-color: #7642C3;
+  box-shadow: none;
+  border: none !important;
+  border-radius: 0 !important;
+  width: 120px;
+}
+
+.cartProductList .cartTotals .checkoutBtn {
+  margin-left: 350px;
+  background-color: #7642C3;
+  box-shadow: none;
+  border: none !important;
+  border-radius: 0 !important;
+  width: 180px;
+}
+
+
+/* ======================================================================== */
+
+/*-------------- Check-Out Page Section CSS  --------------*/
+.checkoutMainArea {
+  padding: 0px 30px 0px 85px;
+  margin-top: 100px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod h3 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod h4 {
+  color: #999999;
+  letter-spacing: .25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 0px 30px 0px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod .radioArea .radioInline {
+  display: block;
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod .radioArea ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod h5 {
+  color: #000;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .50px;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod h6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod .checkoutList {
+  display: block;
+  color: #999999;
+  font-weight: normal;
+  letter-spacing: .25px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutMethod .updateBtn {
+  margin-top: 28px;
+  padding: 16px 43px;
+  line-height: 120px;
+  background-color: #7642C3;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea {
+  padding-left: 15px;
+  width: 100%;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea h2 {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 15px;
+  letter-spacing: .50px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+.checkoutMainArea.checkoutProsses .checkoutFormArea p {
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: .25px;
+  margin-bottom: 15px;
+  display: block;
+  width: 100%;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea form {
+  width: 100%;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea .form-group label {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea .form-group label span {
+  color: #ff0000;
+}
+
+.checkoutMainArea.checkoutProsses .checkoutFormArea .form-group input {
+  border: 1px solid #cccccc;
+  line-height: 50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .25px;
+  font-size: 13px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea h3 {
+  color: #ff0000;
+  font-size: 13px;
+  letter-spacing: .25px;
+  padding-top: 10px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea .forgotArea {
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea .forgotArea h4 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+  padding-left: 22px;
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea .forgotArea .updateBtn {
+  padding: 1px 60px;
+  line-height: 54px;
+  background-color: #7642C3;
+  border-radius: 0 !important;
+  border: none !important;
+  margin-top: 21px;
+  color: #fff;
+  font-size: 18px;
+
+}
+
+.checkoutMainArea .checkoutProsses .checkoutFormArea .forgotArea.updateBtn:hover {
+  border-color: #333333;
+}
+
+.checkoutMainArea .checkoutProsses .listCheckout {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.checkoutMainArea .checkoutProsses .listCheckout li {
+  border-top: 1px solid #e5e5e5;
+}
+
+.checkoutMainArea .checkoutProsses .listCheckout li a {
+  color: #000;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .25px;
+  text-decoration: none;
+  line-height: 85px;
+  padding-left: 40px;
+}
+
+/* ======================================================================== */
+
+/*-------------- Check-Out Register Page Section CSS  --------------*/
+.bannerCheckOutRegister {
+  min-height: 60vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 128, 9,0.4),
+    rgba(118, 66, 195, 0.4)
+    ),  url("../img/slider/slider-5.jpg")center/cover fixed no-repeat;
+}
+
+.registerArea {
+  margin: 100px 0;
+}
+.registerInner {
+
+}
+.orderBoxPrice .submitBtn {
+  margin-top: 15px;
+}
+
+.paymentList {
+  background: #f5f5f5;
+  padding: 60px 30px 35px 30px;
+}
+
+.paymentList .priceSingleCost {
+  border-top: 1px solid #bdbdbd;
+  padding: 0px 30px;
+  padding-top: 20px;
+}
+
+.paymentList .priceSingleCost h5 {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.paymentList .priceSingleCost h5 span {
+  float: right;
+}
+
+.paymentList .priceSingleCost h4 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 20px;
+  margin-left: -30px;
+  margin-right: -30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.paymentList .priceSingleCost h4 span {
+  float: right;
+}
+
+.paymentList .priceSingleCost h3 {
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.paymentList .priceSingleCost h3 .normalText {
+  float: none;
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  position: relative;
+  top: 5px;
+}
+
+.paymentList .priceSingleCost h3 span {
+  float: right;
+  font-weight: bold;
+  color: #d42421;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.priceMethod {
+  border-top: 1px solid #bdbdbd;
+  padding-top: 20px;
+}
+
+.priceMethod .card {
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+  padding-left: 65px;
+  padding-right: 2px;
+  margin-bottom: 23px;
+}
+
+.priceMethod .card:last-child {
+  margin-bottom: 0px;
+}
+
+.priceMethod .card .cardHeader {
+  padding: 0px;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+}
+
+.priceMethod .card .cardHeader h5 a {
+  background: transparent;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+  position: relative;
+}
+
+.priceMethod .card .cardHeader h5 a:before {
+  content: "";
+  height: 18px;
+  width: 18px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -65px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.priceMethod .card .cardHeader h5 a:after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: -61px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.priceMethod .card .cardHeader h5 a.collapsed:after {
+  opacity: 0;
+}
+
+.priceMethod .card .card-body {
+  padding: 10px 0px 0px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #959595;
+  font-family: "Roboto", sans-serif;
+}
+
+.regTitle {
+  font-size: 24px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  padding-bottom: 35px;
+}
+
+.billingDetails {
+  padding-right: 85px;
+  /*margin-bottom: -20px;*/
+}
+
+.billingDetails .billingInner .form-group {
+  margin-bottom: 20px;
+}
+
+.billingDetails .billingInner .form-group label {
+  display: block;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.billingDetails .billingInner .form-group label span {
+  color: #ff0000;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select {
+  width: 100% !important;
+  border: 1px solid #cccccc;
+  height: 56px;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-toggle {
+  padding: 0px 22px;
+  line-height: 56px;
+  background: transparent;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-toggle span {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-toggle:after {
+  border-top-color: #666666;
+  margin: 0px;
+  position: relative;
+  right: 6px;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-menu {
+  margin: 0px;
+  border-radius: 0px;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-menu .dropdown-menu.inner {
+  display: block;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-menu .dropdown-menu.inner li a {
+  padding: 0px 22px;
+  display: block;
+  line-height: 35px;
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.billingDetails .billingInner .form-group .bootstrap-select .dropdown-menu .dropdown-menu.inner li:hover a {
+  color: #000;
+}
+
+.billingDetails .billingInner .form-group input {
+  height: 56px;
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0px 22px;
+}
+
+.billingDetails .billingInner .form-group input.placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group input:-moz-placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group input::-moz-placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group input::-webkit-input-placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group input + input {
+  margin-top: 20px;
+}
+
+.billingDetails .billingInner .form-group textarea {
+  height: 160px;
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  outline: none;
+  padding: 0px 22px;
+}
+
+.billingDetails .billingInner .form-group textarea.placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group textarea:-moz-placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group textarea::-moz-placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group textarea::-webkit-input-placeholder {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.billingDetails .billingInner .form-group .creat_account input {
+  height: auto;
+  visibility: hidden;
+}
+
+/* SQUARED THREE */
+.creatAccount {
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.creatAccount label {
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  padding: 0px 0px 0px 35px;
+  height: 15px;
+  margin: 0px;
+  top: -25px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  color: #666666;
+  font-size: 13px;
+  letter-spacing: .25px;
+  font-weight: 500;
+}
+
+.creatAccount .check {
+  display: block;
+  position: absolute;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  background: #f4f4f4;
+  height: 15px;
+  width: 15px;
+  top: 6px;
+  border-radius: 3px;
+  left: 0px;
+  z-index: 5;
+  -o-transition: border .25s linear;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+  cursor: pointer;
+}
+
+.creatAccount .check::before {
+  display: block;
+  position: absolute;
+  content: "\f00c";
+  border-radius: 100%;
+  top: -3px;
+  left: -1px;
+  margin: auto;
+  -o-transition: background 0.25s linear;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+  color: #fff;
+  font: normal normal normal 18px/1 FontAwesome;
+  opacity: 0;
+  color: #000;
+}
+
+.creatAccount input[type=checkbox]:checked ~ .check::before {
+  opacity: 1;
+}
+.orderBoxPrice .placeOrder {
+  border: none !important;
+  background-color: #7642C3;
+  border-radius: 0 !important;
+  color: #fff;
+}
+
+
+
+
+/*---------------  6. Contact  -----------------*/
+
+
+.contact
+{
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 2;
+    padding-top: 93px;
+    padding-bottom: 97px;
+}
+.section_title
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1b1b1b;
+}
+.section_subtitle
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c6a74;
+    margin-top: 3px;
+}
+.contact_form_container
+{
+    width: 100%;
+    margin-top: 46px;
+}
+.contact_form > div:not(:last-child)
+{
+    margin-bottom: 14px;
+}
+.contact_form label
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c6a74;
+}
+.contact_input
+{
+    width: 100%;
+    height: 52px;
+    background: #f2f4f8;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+.contact_textarea
+{
+    height: 197px;
+    padding-top: 15px;
+}
+.contact_button
+{
+    position: relative;
+    margin-top: 10px;
+}
+/*.contact_button span*/
+/*{*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*color: #1b1b1b;*/
+    /*z-index: 2;*/
+    /*-webkit-transition: all 200ms ease;*/
+    /*-moz-transition: all 200ms ease;*/
+    /*-ms-transition: all 200ms ease;*/
+    /*-o-transition: all 200ms ease;*/
+    /*transition: all 200ms ease;*/
+/*}*/
+.contact_button:hover span
+{
+    color: #FFFFFF;
+}
+.contact_info_section:not(:first-child)
+{
+    margin-top: 74px;
+}
+.contact_info_title
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1b1b1b;
+}
+.contact_info_section ul
+{
+    margin-top: 46px;
+}
+.contact_info_section ul li
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+.contact_info_section ul li:not(:last-child)
+{
+    margin-bottom: 7px;
+}
+.contact_info_section ul li span
+{
+    color: #6c6a74;
+    margin-left: 8px;
+}
+
+
+
