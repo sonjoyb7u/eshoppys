@@ -2,7 +2,7 @@
 ini_set("display_errors","On");
 error_reporting(E_ALL^E_NOTICE);
 
-//include_once ($_SERVER['DOCUMENT_ROOT'] . '/BitmCtg/eshoppy/vendor/autoload.php');
+//include_once ($_SERVER['DOCUMENT_ROOT'] . '/eshoppy/vendor/autoload.php');
 
 session_start();
 include_once ($_SERVER['DOCUMENT_ROOT'] . '/eshoppy/vendor/autoload.php');
